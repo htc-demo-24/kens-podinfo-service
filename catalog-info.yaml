@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "kens-podinfo-service"
+  annotations:
+    "humanitec.com/orgId": "htc-demo-24"
+    "humanitec.com/appId": "kens-podinfo-service"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
